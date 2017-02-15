@@ -1,0 +1,102 @@
+/* Color= background-color: #23B5AF, red: #C84127, panels: dimgrey, panel-labels: white,  */
+
+#body {
+  padding: 0 .5em 0 .5em;
+  background-color: #23B5AF;
+  font-size: 1.7em;
+ }
+
+/* Titles & Labels */
+.pgtitle { 
+  font-size:2.5em; 
+  padding:0 0 .1em 0;
+  font-family: 'Indie Flower', cursive;
+  text-align: center;
+}
+
+.pgtitle::first-letter {
+  font-size: 2em;
+  font-family: cursive;
+  color: #C84127;
+}
+
+.caption h3 {
+  text-align: center;
+  font-size: 1.3em;
+  padding: 0;
+  font-family: monospace;
+}
+
+#sponsorsmlabel {
+  font-family:monospace;
+  font-size: 1rem;
+  color: lightgray;
+  letter-spacing: .1rem;
+}
+
+/* Panels */
+#panel {
+  background-color: dimgrey;
+}
+
+div.panel-heading {
+  font-size: 2rem;
+  text-align: center;
+  font-family: monospace;
+  color: white;
+  letter-spacing: .7rem;
+}
+
+/* Images */
+div .img-responsive {
+  height: 27rem;
+  width: 32rem;
+}
+
+/*Img container*/
+.item {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: stretch;
+}
+
+/*Img Label*/
+.caption {
+  width: 30rem;
+  height: auto;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+/* Other */
+.fa-heart-o {
+  color: #C84127;
+}
+
+iframe {
+  display: flex;
+}
+
+footer {
+  background-color: dimgrey;
+  height: 10rem;
+}
+
+#kaxon {
+  color: lightgrey;
+  font-size: 3rem;
+  background-color: #C84127;
+  height: 4rem;
+  padding: 2rem;
+ text-align: center;
+  vertical-align: middle;
+  }
+
+.fa-heart p{
+  font-family: 'Kristi', cursive;
+  color: lightgrey;
+  font-size: 4rem;
+  letter-spacing: .1rem;
+}
