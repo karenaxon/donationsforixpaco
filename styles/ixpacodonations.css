@@ -45,6 +45,7 @@ div.panel-heading {
   font-family: monospace;
   color: white;
   letter-spacing: .7rem;
+  background-color: dimgrey;
 }
 
 /* Images */
