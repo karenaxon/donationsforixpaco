@@ -35,7 +35,7 @@
 }
 
 /* Panels */
-#panel {
+.panel-heading-custom {
   background-color: dimgrey;
 }
 
@@ -80,24 +80,25 @@ iframe {
   display: flex;
 }
 
-footer {
+#footer {
   background-color: dimgrey;
   height: 10rem;
+  font-size: 3.5rem;
+  color: lightgrey;
+  display: block;
+  text-align: center;
 }
 
 #kaxon {
-  color: lightgrey;
-  font-size: 3rem;
+  width: 100%;
+  font-family: 'Kristi', cursive;
+  letter-spacing: .2rem;
   background-color: #C84127;
-  height: 4rem;
+  height: 5rem;
   padding: 2rem;
- text-align: center;
-  vertical-align: middle;
   }
 
 .fa-heart p{
-  font-family: 'Kristi', cursive;
   color: lightgrey;
-  font-size: 4rem;
-  letter-spacing: .1rem;
+  font-size: 3.5rem;
 }
